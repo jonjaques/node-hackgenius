@@ -9,7 +9,7 @@ function search(str) {
   return buildSearchReq(str).then(parseAutoComplete);
 }
 
-function get(req) {
+function getContent(req) {
   if (typeof req === 'string') {
     return search(req)
       .then(getFirstResult)
@@ -77,5 +77,5 @@ function getFirstResult(results) {
 
 module.exports = {
   search: search,
-  get: get
+  getContent: getContent
 };
