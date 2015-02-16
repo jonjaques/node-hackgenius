@@ -1,0 +1,15 @@
+{
+  "name": "node-hackgenius",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "Jon Jaques <jaquers@gmail.com>",
+  "license": "WTFPL",
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "request-promise": "^0.4.0",
+    "underscore": "^1.7.0"
+  }
+}
